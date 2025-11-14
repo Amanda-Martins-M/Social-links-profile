@@ -14,12 +14,18 @@
     box-sizing: border-box;
 }
 
-/*//<weight>: Use a value from 100 to 900// <uniquifier: Use a unique and descriptive class name> */
+html, body{
+    height: 100%;
+}
 
 body {
     font-family: "inter", sans-serif;
     background-color: var(--cor-grey-900);
     color: var(--cor-white);
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 a {
@@ -58,4 +64,24 @@ section p{
     font-size: 14px;
     color: var(--cor-white-medium);
     margin-bottom: 24px;
+    text-align: center;
 }
+
+li{
+    margin: 16px 0;
+}
+
+li a{
+    background-color: var(--cor-grey-700);
+    padding: 12px 0;
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+    font-weight: 600;
+}
+li a:hover{
+    color: var(--cor-grey-900);
+    background-color: var(--cor-green);
+}
+
+
