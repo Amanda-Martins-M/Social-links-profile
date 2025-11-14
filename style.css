@@ -1,0 +1,61 @@
+:root {
+    --cor-green: hsl(75, 94%, 57%);
+    --cor-white: hsl(0, 0%, 100%);
+    --cor-grey-700: hsl(0, 0%, 20%);
+    --cor-grey-800: hsl(0, 0%, 12%);
+    --cor-grey-900: hsl(0, 0%, 8%);
+}
+
+* {
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*//<weight>: Use a value from 100 to 900// <uniquifier: Use a unique and descriptive class name> */
+
+body {
+    font-family: "inter", sans-serif;
+    background-color: var(--cor-grey-900);
+    color: var(--cor-white);
+}
+
+a {
+    color: var(--cor-white);
+}
+
+section{
+    background-color: var(--cor-grey-800);
+    width: 330px;
+    border-radius: 12px;
+    border: 1px solid red;
+    padding: 18px;
+    text-align: center;
+}
+
+section img{
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+    /*border-radius: cima-esquerda cima-direita baixo-direita baixo-esquerda;*/
+}
+
+section h1{
+    font-size: 28px;
+    margin: 16px 0px 4px 0px;
+    font-weight: 500;
+}
+
+section h2{
+    font-size: 16px;
+    margin-bottom: 24px;
+    font-weight: 600;
+    color: var(--cor-green);
+}
+section p{
+    font-size: 14px;
+    color: var(--cor-white-medium);
+    margin-bottom: 24px;
+}
